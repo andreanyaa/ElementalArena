@@ -38,6 +38,7 @@ const Navbar: React.FC = () => {
           <li><Link to="/features" className={location.pathname === '/features' ? 'active' : ''}>Features</Link></li>
           <li><Link to="/target" className={location.pathname === '/target' ? 'active' : ''}>Target Market</Link></li>
           <li><Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link></li>
+          <li><Link to="/investors" className={location.pathname === '/investors' ? 'active' : ''}>Investors</Link></li>
         </ul>
       </div>
     </nav>

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Features from './pages/Features';
 import Target from './pages/Target';
 import About from './pages/About';
+import Investors from './pages/Investors';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/features" element={<Features />} />
           <Route path="/target" element={<Target />} />
           <Route path="/about" element={<About />} />
+          <Route path="/investors" element={<Investors />} />
         </Routes>
         <Footer />
       </div>

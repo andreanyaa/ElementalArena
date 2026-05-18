@@ -1,0 +1,377 @@
+/* ============ INVESTORS HERO ============ */
+.investors-hero {
+  padding: 10rem 2rem 5rem;
+  text-align: center;
+  background:
+    radial-gradient(ellipse at 30% 40%, rgba(212, 168, 87, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 60%, rgba(255, 69, 0, 0.06) 0%, transparent 50%),
+    var(--color-bg-dark);
+}
+
+.investors-hero__badge {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: var(--color-gold);
+  border: 1px solid rgba(212, 168, 87, 0.4);
+  padding: 0.4rem 1.2rem;
+  margin-bottom: 1.5rem;
+  background: rgba(212, 168, 87, 0.05);
+}
+
+.investors-hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+}
+
+.investors-hero p {
+  color: var(--color-text-dim);
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+/* ============ MARKET OPPORTUNITY ============ */
+.market-opportunity {
+  padding: 6rem 2rem;
+  background: var(--color-bg-medium);
+}
+
+.market-opportunity__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.market-opportunity__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.opp-card {
+  background: var(--color-bg-card);
+  padding: 2.5rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.opp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 40px rgba(212, 168, 87, 0.12);
+}
+
+.opp-card__stat {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--color-gold), var(--color-fire-glow));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.opp-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+
+.opp-card p {
+  color: var(--color-text-dim);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+/* ============ WHY INVEST ============ */
+.why-invest {
+  padding: 6rem 2rem;
+  background: var(--color-bg-dark);
+}
+
+.why-invest__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.why-invest__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.why-card {
+  background: var(--color-bg-card);
+  padding: 2.5rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-4px);
+}
+
+.why-card--fire { border-top: 3px solid var(--color-fire); }
+.why-card--fire:hover { box-shadow: 0 10px 40px rgba(255, 69, 0, 0.12); }
+
+.why-card--water { border-top: 3px solid var(--color-water); }
+.why-card--water:hover { box-shadow: 0 10px 40px rgba(0, 191, 255, 0.12); }
+
+.why-card--earth { border-top: 3px solid var(--color-earth-glow); }
+.why-card--earth:hover { box-shadow: 0 10px 40px rgba(201, 168, 76, 0.12); }
+
+.why-card--air { border-top: 3px solid var(--color-air); }
+.why-card--air:hover { box-shadow: 0 10px 40px rgba(192, 192, 192, 0.12); }
+
+.why-card__number {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgba(212, 168, 87, 0.1);
+  line-height: 1;
+  margin-bottom: 0.8rem;
+}
+
+.why-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.8rem;
+}
+
+.why-card p {
+  color: var(--color-text-dim);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+/* ============ BUSINESS MODEL ============ */
+.business-model {
+  padding: 6rem 2rem;
+  background: var(--color-bg-medium);
+}
+
+.business-model__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.business-model__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.biz-card {
+  background: var(--color-bg-card);
+  padding: 2.5rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.biz-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 40px rgba(212, 168, 87, 0.1);
+}
+
+.biz-card__icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.biz-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.biz-card__detail {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-fire-glow);
+  margin-bottom: 1rem;
+}
+
+.biz-card p {
+  color: var(--color-text-dim);
+  line-height: 1.7;
+  font-size: 0.9rem;
+}
+
+/* ============ TRACTION / ROADMAP ============ */
+.traction {
+  padding: 6rem 2rem;
+  background: var(--color-bg-dark);
+}
+
+.traction__container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.traction__timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.traction__phase {
+  background: var(--color-bg-card);
+  padding: 2rem 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.traction__phase:hover {
+  transform: translateX(4px);
+}
+
+.traction__phase--complete {
+  border-left-color: var(--color-earth-glow);
+}
+
+.traction__phase--current {
+  border-left-color: var(--color-fire);
+  background: rgba(255, 69, 0, 0.04);
+}
+
+.traction__phase-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.traction__phase-tag {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0.25rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--color-text-dim);
+}
+
+.traction__phase-tag--complete {
+  border-color: rgba(201, 168, 76, 0.4);
+  color: var(--color-earth-glow);
+  background: rgba(201, 168, 76, 0.08);
+}
+
+.traction__phase-tag--current {
+  border-color: rgba(255, 69, 0, 0.4);
+  color: var(--color-fire-glow);
+  background: rgba(255, 69, 0, 0.08);
+  animation: tagPulse 2s ease-in-out infinite;
+}
+
+@keyframes tagPulse {
+  0%, 100% { box-shadow: 0 0 0 rgba(255, 69, 0, 0); }
+  50% { box-shadow: 0 0 12px rgba(255, 69, 0, 0.2); }
+}
+
+.traction__phase-header h3 {
+  font-size: 1.15rem;
+}
+
+.traction__phase ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0;
+}
+
+.traction__phase li {
+  color: var(--color-text-dim);
+  font-size: 0.95rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.traction__phase li::before {
+  content: '\25C6';
+  position: absolute;
+  left: 0;
+  color: var(--color-gold);
+  font-size: 0.5rem;
+  top: 0.35rem;
+}
+
+.traction__phase--complete li::before {
+  content: '\2713';
+  color: var(--color-earth-glow);
+  font-size: 0.8rem;
+  top: 0.1rem;
+}
+
+/* ============ INVESTORS CTA ============ */
+.investors-cta {
+  padding: 6rem 2rem;
+  background: var(--color-bg-medium);
+  text-align: center;
+  position: relative;
+}
+
+.investors-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+}
+
+.investors-cta__container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.investors-cta h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  margin-bottom: 1rem;
+}
+
+.investors-cta p {
+  color: var(--color-text-dim);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.investors-cta__buttons {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 768px) {
+  .market-opportunity,
+  .why-invest,
+  .business-model,
+  .traction {
+    padding: 4rem 1.5rem;
+  }
+
+  .traction__phase {
+    padding: 1.5rem;
+  }
+
+  .traction__phase-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

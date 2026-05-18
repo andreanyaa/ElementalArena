@@ -19,6 +19,7 @@ const Footer: React.FC = () => {
           <Link to="/features">Features</Link>
           <Link to="/target">Target Market</Link>
           <Link to="/about">About</Link>
+          <Link to="/investors">Investors</Link>
         </div>
         <div className="footer__elements">
           <h4>The Elements</h4>
