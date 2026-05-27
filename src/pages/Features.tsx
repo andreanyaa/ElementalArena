@@ -13,9 +13,9 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: '🎮',
-    title: 'VR Combat That Feels Real',
+    title: 'VR Combat Aspects',
     description:
-      'You\'re not just waving your arms around. The game reads your actual body movement and turns it into attacks, blocks, and dodges in a full 3D arena. Move your body, and your character moves with you.',
+      'You\'re not just moving your arms around at random. The game reads your actual body movement and turns it into attacks, blocks, and dodges in a full 3D arena. Move your body, and your character moves with you.',
     details: [
       '360-degree arenas, each element has its own themed environment',
       'Your real punches and dodges become in-game abilities',
@@ -33,7 +33,7 @@ const features: Feature[] = [
       '4 bands total, comfortable enough to forget you\'re wearing them',
       'Accelerometer and gyroscope in each band for accurate tracking',
       'Tracks your heart rate and calories in real time',
-      'Connects wirelessly with very little lag',
+      'Wireless connectivity with low latency for responsive gameplay',
     ],
     element: 'water',
   },
@@ -44,17 +44,17 @@ const features: Feature[] = [
       'You get matched against someone around your level. We use an ELO-style ranking system (similar to chess or League of Legends) so fights are close and competitive, not one-sided.',
     details: [
       'Ranked seasons with ladders you can climb',
-      'Quick match for casual play, ranked mode for serious competition',
+      'Quick match for casual play, ranked mode for more serious competition',
       'Tournament brackets for organized events',
-      'Systems in place to prevent smurfing and unfair matches',
+      'Systems in place to prevent smurfing and unbalanced matches',
     ],
     element: 'earth',
   },
   {
     icon: '📖',
-    title: 'A World Worth Caring About',
+    title: 'Be Part of the Story',
     description:
-      'There\'s an ongoing fantasy storyline woven into the game. As you get stronger and play more, you unlock new chapters, character backstories, and plot twists tied to your chosen element.',
+      'There\'s an ongoing fantasy storyline integrated into the game. As you get stronger and play more, you unlock new chapters, character backstories, and plot twists tied to your chosen element.',
     details: [
       'Different story paths depending on which element you pick',
       'Lore and backstories you unlock by training consistently',
@@ -78,9 +78,9 @@ const features: Feature[] = [
   },
   {
     icon: '🎭',
-    title: 'Build Your Own Style',
+    title: 'Grow Into Your Fighting Style',
     description:
-      'Start with one of four base elements, then customize your ability loadout. Eventually you can mix two elements together to create hybrid fighting styles, like combining fire and earth for explosive ground attacks.',
+      'Start with one of four base elements, then customize your ability loadout. Eventually you can mix two elements together to create hybrid fighting styles, like combining fire and earth for more powerful attacks.',
     details: [
       'Four elements, each with its own ability tree to level up',
       'Dual-element hybrids for players who want to mix it up',
@@ -97,9 +97,9 @@ const Features: React.FC = () => {
       <section className="features-hero">
         <div className="features-hero__content">
           <div className="features-hero__badge">TECHNOLOGY & GAMEPLAY</div>
-          <h1>What's Under the Hood</h1>
+          <h1>How It Works</h1>
           <p>
-            Here's how Elemental Arena actually works: the tech, the
+            The tech, the
             gameplay systems, and what makes it different from other VR
             fitness games.
           </p>
@@ -141,7 +141,7 @@ const Features: React.FC = () => {
 
       <section className="tech-stack">
         <div className="tech-stack__container">
-          <h2 className="section-title">How It Works</h2>
+          <h2 className="section-title">What Actually Happens</h2>
           <p className="section-subtitle">
             The short version of what happens between you throwing a real punch
             and your opponent getting hit in VR.

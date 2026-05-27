@@ -40,8 +40,8 @@ const Home: React.FC = () => {
           </h1>
           <p className="hero__subtitle">
             A VR game where you fight using fire, water, earth, and air,
-            and get a real workout while doing it. IoT bands on your wrists and
-            thighs track your movement and turn it into in-game power. You
+            and can get a real workout while doing it. IoT bands on your wrists and
+            thighs track your movement and turn it into in-game actions. You
             won't even realize you're exercising.
           </p>
           <div className="hero__cta-group">
@@ -75,8 +75,8 @@ const Home: React.FC = () => {
                 <div className="value-card__icon">&#128293;</div>
                 <h3>Feels Like a Game</h3>
                 <p>
-                  No rep counting. No timer staring. You're throwing fireballs
-                  and dodging attacks, and before you know it, you've done
+                  No need to count reps. No wasting time looking at a timer. You're throwing fireballs
+                  and dodging attacks, but when your done you've just done
                   a 30-minute cardio session without thinking about it.
                 </p>
               </div>
@@ -87,15 +87,14 @@ const Home: React.FC = () => {
                 <h3>Play Against Real People</h3>
                 <p>
                   You get matched against someone close to your skill level, so
-                  fights actually feel fair. Win and you climb the ranks. Lose
-                  and you learn something.
+                  fights actually feel fair. Win and you climb the ranks. Get a workout while doing it.
                 </p>
               </div>
             </FadeInSection>
             <FadeInSection delay={200}>
               <div className="value-card value-card--earth">
                 <div className="value-card__icon">&#129520;</div>
-                <h3>Your Body is the Controller</h3>
+                <h3>IoT Smart Bands</h3>
                 <p>
                   Four lightweight bands (two on your wrists, two on your thighs)
                   pick up how you move. Throw a real punch, and your character
@@ -108,9 +107,9 @@ const Home: React.FC = () => {
                 <div className="value-card__icon">&#127752;</div>
                 <h3>An Actual Story</h3>
                 <p>
-                  There's a whole fantasy world behind the fights: elemental
+                  There's a full built out storybehind the fights: elemental
                   factions, rivalries, and lore. The more you play and train, the
-                  more of the story you unlock.
+                  more you progress in the story.
                 </p>
               </div>
             </FadeInSection>
@@ -176,7 +175,7 @@ const Home: React.FC = () => {
         <FadeInSection>
           <div className="cta-section__container">
             <h2>Ready to Enter the Arena?</h2>
-            <p>Stop dreading your workouts. Start looking forward to them.</p>
+            <p>Now is the time to start enjoying your workouts.</p>
             <Link to="/features" className="btn btn--primary btn--large">
               Explore All Features
             </Link>

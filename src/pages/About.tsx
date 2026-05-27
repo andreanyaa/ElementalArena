@@ -10,8 +10,7 @@ const About: React.FC = () => {
           <div className="about-hero__badge">OUR STORY</div>
           <h1>About Elemental Arena</h1>
           <p>
-            We got tired of workouts that feel like work. So we made one
-            that doesn't.
+            Nobody actually likes to workout. So we tried to fix that.
           </p>
         </div>
       </section>
@@ -21,16 +20,16 @@ const About: React.FC = () => {
           <div className="about-story__content">
             <h2>How This Started</h2>
             <p>
-              Honestly? We were tired of forcing ourselves to go to the gym.
-              We already spent hours in VR, so we asked ourselves: what if
-              that time actually counted as a workout?
+              We didn't like the feeling offorcing ourselves to go to the gym.
+              We already spent hours in VR, so we thought: what if
+              that time actually counted as a workout without feeling like it?
             </p>
             <p>
               That's where Elemental Arena came from. We took the parts of
-              gaming that keep people hooked (competition, rankings, story
-              progression) and built a VR experience around them that
-              happens to be a serious workout. You're not thinking about
-              exercise. You're thinking about winning.
+              gaming that keep people invested like competition, rankings, story
+              and progression, and built a VR experience around them that
+              happens to be a real workout. You're not thinking about
+              exercise. You're thinking about winning, and the and the exercise is just a bonus.
             </p>
             <p>
               We're a team that knows game design, wearable tech, and
@@ -68,17 +67,17 @@ const About: React.FC = () => {
               <div className="about-value__icon">&#9876;</div>
               <h3>Fun First, Fitness Second</h3>
               <p>
-                If it feels like a chore, we messed up. Every game mechanic
-                is built to be fun on its own. The workout is a side
-                effect, not the sales pitch.
+                If it feels like a chore, we didn't do our job right. Every game mechanic
+                is built to be fun on its own while you put in the effort. The workout is just a part of the game, 
+                not the sales pitch.
               </p>
             </div>
             <div className="about-value">
               <div className="about-value__icon">&#9878;</div>
               <h3>Fair Fights</h3>
               <p>
-                Nobody wants to get stomped by someone way above their
-                level. We put a lot of work into matching people fairly
+                Nobody wants to get lose badly to someone that is way above their
+                skill level. We put a lot of work into matching people fairly
                 so every fight actually feels winnable.
               </p>
             </div>
@@ -86,9 +85,9 @@ const About: React.FC = () => {
               <div className="about-value__icon">&#10024;</div>
               <h3>The World Matters</h3>
               <p>
-                We didn't just throw a fantasy skin on a fitness app. The
-                lore, the arena designs, the elemental factions. We
-                actually thought through all of it.
+                We want the game to feel fully developed and not just a collection of features. The
+                lore, the arena designs, and the elemental factions. We
+                thought through it all.
               </p>
             </div>
             <div className="about-value">
@@ -96,7 +95,7 @@ const About: React.FC = () => {
               <h3>It Actually Works</h3>
               <p>
                 Behind the dragons and fireballs, the fitness side is
-                legit. The IoT bands track real data, and the movements
+                legitimate. The IoT bands track real data, and the movements
                 are designed to give you an actual workout.
               </p>
             </div>
@@ -114,9 +113,8 @@ const About: React.FC = () => {
                 <h3>Concept & Research</h3>
                 <p>
                   Noticed that VR fitness games and competitive VR games
-                  existed separately but nobody was combining them. Started
-                  experimenting with strapping sensors to our arms and
-                  seeing what was possible.
+                  existed separately but nobody was putting them together. So we thought
+                  that we could be the ones to fill that gap.
                 </p>
               </div>
             </div>
@@ -136,9 +134,9 @@ const About: React.FC = () => {
               <div className="timeline__content">
                 <h3>Full Body Tracking</h3>
                 <p>
-                  Added thigh bands to the setup, bringing it to 4 bands
-                  total. Got the delay between moving and seeing it
-                  on-screen down to under 20 milliseconds.
+                  The 4 IoT bands on your wrists and thighs allow for very
+                  accurate tracking of your movement, so that everything you
+                  move that you do is meaningful in the game.
                 </p>
               </div>
             </div>
@@ -149,7 +147,7 @@ const About: React.FC = () => {
                 <p>
                   Building out the competitive matchmaking, finishing all
                   four elemental paths, and writing the first season of
-                  the story. Almost there.
+                  the story. So we're almost there.
                 </p>
               </div>
             </div>
@@ -162,7 +160,7 @@ const About: React.FC = () => {
           <h2>Join the Arena</h2>
           <p>
             Whether you want to compete, get in shape, or just mess around
-            in a fantasy world, there's a reason to play.
+            in the story, there's a reason to play for everyone.
           </p>
           <div className="about-cta__buttons">
             <Link to="/features" className="btn btn--primary">

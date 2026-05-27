@@ -14,18 +14,18 @@ interface Persona {
 
 const personas: Persona[] = [
   {
-    name: 'Gamers Who Skip the Gym',
+    name: 'Gamers That Skip the Gym',
     age: '18-30',
     avatar: '🎮',
     description:
-      'They love competitive games and already spend time in VR, but they can\'t get themselves to go to the gym. Working out feels boring compared to gaming.',
+      'They love competitive games and already spend time in VR, but they can\'t get themselves to go to the gym. Working out feels boring compared to playing a game.',
     painPoints: [
-      'The gym is repetitive and they lose interest fast',
-      'Without competition, there\'s no reason to push harder',
+      'The gym is repetitive and they lose motivation after a few weeks',
+      'Without competition, there\'s less of a reason to push yourself harder',
       'They don\'t want to give up gaming time for exercise',
     ],
     whyElementalArena:
-      'Their gaming time becomes their workout time. The ranked matchmaking gives them the same competitive rush they get from esports, except now they\'re burning 400+ calories per session doing it.',
+      'Their gaming time becomes their workout time. The ranked matchmaking gives them the same competitive drive they get from competitive gaming, except now they\'re burning 400+ calories per session doing it.',
     element: 'fire',
   },
   {
@@ -33,14 +33,14 @@ const personas: Persona[] = [
     age: '22-40',
     avatar: '💪',
     description:
-      'They already work out, but they\'re stuck in a rut. Same exercises, same playlist, same results. They want something that actually makes them think, not just sweat.',
+      'They have already been working out, but they\'re stuck being bored, because they\'re using the same exercises, listening to the same playlist, and getting the same results. They want something that actually stimulates their brain, not just sweat.',
     painPoints: [
       'Hit a plateau doing the same routine over and over',
       'Want something mentally engaging, not just physical',
-      'Like tracking their stats and seeing real numbers',
+      'Like tracking their stats and seeing real numbers and progress',
     ],
     whyElementalArena:
-      'The IoT bands give them detailed workout data after every match, and because the combat system keeps changing with new abilities and opponents, no two sessions play out the same way.',
+      'The IoT bands give them detailed workout data after every match, and because the combat system keeps changing with new abilities and opponents, no two sessions willplay out in the same way.',
     element: 'water',
   },
   {
@@ -48,14 +48,14 @@ const personas: Persona[] = [
     age: '20-35',
     avatar: '🥽',
     description:
-      'They bought a VR headset, played a few games, and now it sits on a shelf. They want a reason to pick it back up, something with staying power and a real community.',
+      'They bought a VR headset, played a few games, and now its not getting used at all. They want a reason to pick it back up, something with replay value.',
     painPoints: [
-      'Most VR games get old after a week',
+      'Most VR games get old fast',
       'Not enough social or competitive VR content out there',
-      'Hard to justify the headset if they barely use it',
+      'Hard to justify keeping the headset if they barely use it',
     ],
     whyElementalArena:
-      'Between the competitive ladder, the ongoing story, and the IoT fitness tracking, there\'s a reason to play every day. The matchmaking also means there\'s always someone online to fight.',
+      'Between the competitive ladder, the ongoing story, and the IoT fitness tracking, there\'s always a reason to play. The matchmaking also means there\'s always someone to play against.',
     element: 'earth',
   },
   {
@@ -63,14 +63,14 @@ const personas: Persona[] = [
     age: '16-45',
     avatar: '✨',
     description:
-      'They\'re not gamers and they\'re not gym people. They just want to be more active without it feeling like punishment. The fantasy theme caught their eye.',
+      'They\'re not gamers and they\'re not gym people. They just want to be more active without it feeling like punishment. They found this concept appealing.',
     painPoints: [
       'Working out feels like a chore every single time',
-      'Online gaming communities can feel hostile or intimidating',
+      'Online gaming communities can feel intimidating and hard to feel welcome in',
       'They need a low-pressure way to start',
     ],
     whyElementalArena:
-      'The matchmaking puts them against other beginners, so they\'re never getting destroyed by experienced players. The story and element customization give them something fun to work toward beyond just fitness numbers.',
+      'The matchmaking puts them against other beginners, so they\'re never getting beaten by experienced players. The story and element customization give them something fun to work toward beyond just fitness numbers.',
     element: 'air',
   },
 ];
@@ -165,8 +165,8 @@ const Target: React.FC = () => {
               <p>
                 We made a game first and a workout second. You wear IoT
                 bands that track how your body moves, fight real people
-                at your skill level, and work through an actual fantasy
-                story. The exercise happens because the gameplay demands
+                at your skill level, and work through an storyline.
+                The exercise happens because the gameplay demands
                 it, not because we put a calorie counter on screen.
               </p>
             </div>
