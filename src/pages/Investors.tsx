@@ -9,10 +9,11 @@ const Investors: React.FC = () => {
       <section className="investors-hero">
         <div className="investors-hero__content">
           <div className="investors-hero__badge">INVESTMENT OPPORTUNITY</div>
-          <h1>Invest in the Future of Fitness</h1>
+          <h1>Why Back Elemental Arena</h1>
           <p>
-            Elemental Arena sits at the intersection of three explosive markets:
-            VR gaming, wearable fitness tech, and competitive esports.
+            VR gaming, fitness wearables, and esports are all growing fast
+            on their own. We're the first product that puts all three
+            together into one thing.
           </p>
         </div>
       </section>
@@ -20,9 +21,10 @@ const Investors: React.FC = () => {
       <section className="market-opportunity">
         <div className="market-opportunity__container">
           <FadeInSection>
-            <h2 className="section-title">Market Opportunity</h2>
+            <h2 className="section-title">The Numbers</h2>
             <p className="section-subtitle">
-              The convergence of VR, fitness, and gaming creates a massive untapped market.
+              These are the markets we're tapping into. Each one is big on
+              its own — and nobody's seriously combined them yet.
             </p>
           </FadeInSection>
           <div className="market-opportunity__grid">
@@ -30,21 +32,21 @@ const Investors: React.FC = () => {
               <div className="opp-card">
                 <div className="opp-card__stat">$14.8B</div>
                 <h3>VR Gaming Market</h3>
-                <p>Projected global VR gaming market by 2027, growing at 30.2% CAGR</p>
+                <p>Where VR gaming is headed by 2027 — growing roughly 30% year over year</p>
               </div>
             </FadeInSection>
             <FadeInSection delay={100}>
               <div className="opp-card">
                 <div className="opp-card__stat">$116B</div>
                 <h3>Global Fitness Industry</h3>
-                <p>The fitness market continues to shift toward gamified, tech-driven experiences</p>
+                <p>People are spending more on fitness than ever, and more of that money is going toward tech-based options</p>
               </div>
             </FadeInSection>
             <FadeInSection delay={200}>
               <div className="opp-card">
                 <div className="opp-card__stat">$5.7B</div>
                 <h3>Wearable Tech Market</h3>
-                <p>IoT fitness wearables are the fastest-growing segment in consumer health tech</p>
+                <p>Fitness wearables keep growing — people clearly want tech that tracks their body</p>
               </div>
             </FadeInSection>
           </div>
@@ -60,44 +62,47 @@ const Investors: React.FC = () => {
             <FadeInSection delay={0}>
               <div className="why-card why-card--fire">
                 <div className="why-card__number">01</div>
-                <h3>First-Mover Advantage</h3>
+                <h3>Nobody Else Is Doing This</h3>
                 <p>
-                  No competitor combines IoT body tracking with competitive VR
-                  combat and a living fantasy narrative. We are defining the
-                  category.
+                  There are VR fitness apps and there are VR fighting games,
+                  but nobody has combined IoT body tracking, competitive
+                  matchmaking, and an ongoing fantasy story into one product.
                 </p>
               </div>
             </FadeInSection>
             <FadeInSection delay={100}>
               <div className="why-card why-card--water">
                 <div className="why-card__number">02</div>
-                <h3>Multiple Revenue Streams</h3>
+                <h3>More Than One Way to Make Money</h3>
                 <p>
-                  Hardware sales (IoT bands), software subscriptions, in-game
-                  cosmetics, seasonal battle passes, and tournament entry fees
-                  create diversified revenue.
+                  We sell the IoT bands, charge a monthly subscription, sell
+                  cosmetic items in-game, run seasonal battle passes, and
+                  host tournaments. That's five revenue channels from one
+                  product.
                 </p>
               </div>
             </FadeInSection>
             <FadeInSection delay={200}>
               <div className="why-card why-card--earth">
                 <div className="why-card__number">03</div>
-                <h3>High Retention by Design</h3>
+                <h3>People Keep Coming Back</h3>
                 <p>
-                  Competitive matchmaking, seasonal content, and fitness
-                  progression create powerful engagement loops that keep
-                  players coming back daily.
+                  Ranked competition gives players a reason to log in. New
+                  seasons give them something to look forward to. And
+                  because the workout data tracks real progress, they can
+                  see themselves getting stronger — which is hard to walk
+                  away from.
                 </p>
               </div>
             </FadeInSection>
             <FadeInSection delay={300}>
               <div className="why-card why-card--air">
                 <div className="why-card__number">04</div>
-                <h3>Scalable Platform</h3>
+                <h3>Easy to Keep Growing</h3>
                 <p>
-                  Our modular element system allows continuous content expansion.
-                  New elements, abilities, and story arcs extend the product
-                  lifecycle indefinitely.
+                  The element system is modular — we can keep adding new
+                  elements, abilities, and story chapters without
+                  rebuilding anything. It's designed to expand over time.
                 </p>
               </div>
             </FadeInSection>
@@ -108,9 +113,10 @@ const Investors: React.FC = () => {
       <section className="business-model">
         <div className="business-model__container">
           <FadeInSection>
-            <h2 className="section-title">Business Model</h2>
+            <h2 className="section-title">How We Make Money</h2>
             <p className="section-subtitle">
-              A proven freemium-plus-hardware model with multiple monetization layers.
+              Four revenue channels that work together — hardware, subscriptions,
+              in-game purchases, and competitive events.
             </p>
           </FadeInSection>
           <div className="business-model__grid">
@@ -120,9 +126,9 @@ const Investors: React.FC = () => {
                 <h3>Hardware</h3>
                 <div className="biz-card__detail">IoT Smart Band Kit</div>
                 <p>
-                  4-band starter kit (2 wrist + 2 thigh) sold as a premium
-                  accessory. Hardware margins at 40%+ with declining component
-                  costs at scale.
+                  The 4-band starter kit (2 wrist + 2 thigh) is how most
+                  players enter the ecosystem. Margins sit around 40%, and
+                  component costs drop as we scale production.
                 </p>
               </div>
             </FadeInSection>
@@ -132,9 +138,9 @@ const Investors: React.FC = () => {
                 <h3>Subscription</h3>
                 <div className="biz-card__detail">Arena Pass</div>
                 <p>
-                  Monthly subscription unlocks ranked matchmaking, detailed
-                  fitness analytics, seasonal story content, and premium
-                  training programs.
+                  A monthly pass gets you into ranked matches, unlocks
+                  detailed fitness reports, and gives access to seasonal
+                  story content and training programs.
                 </p>
               </div>
             </FadeInSection>
@@ -144,9 +150,9 @@ const Investors: React.FC = () => {
                 <h3>In-Game Store</h3>
                 <div className="biz-card__detail">Cosmetic Marketplace</div>
                 <p>
-                  Elemental skins, arena effects, victory animations, and
-                  character customization. Purely cosmetic — no pay-to-win
-                  mechanics.
+                  Skins, arena effects, victory animations — all cosmetic
+                  only. We don't sell power. You can't buy your way to a
+                  higher rank.
                 </p>
               </div>
             </FadeInSection>
@@ -156,9 +162,9 @@ const Investors: React.FC = () => {
                 <h3>Esports & Events</h3>
                 <div className="biz-card__detail">Competitive Circuit</div>
                 <p>
-                  Seasonal tournaments with entry fees and sponsorships.
-                  Creates community engagement and media exposure while
-                  generating revenue.
+                  Seasonal tournaments with entry fees and sponsor deals.
+                  Good for the community, good for visibility, and they
+                  pay for themselves.
                 </p>
               </div>
             </FadeInSection>
@@ -235,11 +241,10 @@ const Investors: React.FC = () => {
       <section className="investors-cta">
         <FadeInSection>
           <div className="investors-cta__container">
-            <h2>Ready to Join the Arena?</h2>
+            <h2>Interested?</h2>
             <p>
-              We are building the future of fitness entertainment. If you share
-              our vision that workouts should be epic, competitive, and
-              unforgettable — let's talk.
+              We think this is a real opportunity. If you do too, take a
+              closer look at the product and the market we're going after.
             </p>
             <div className="investors-cta__buttons">
               <Link to="/features" className="btn btn--primary">

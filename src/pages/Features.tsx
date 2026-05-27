@@ -13,14 +13,14 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: '🎮',
-    title: 'Immersive VR Combat',
+    title: 'VR Combat That Feels Real',
     description:
-      'Step into a fully realized elemental arena where every physical movement translates into powerful in-game actions. Our VR environment responds to your body in real time.',
+      'You\'re not just waving your arms around. The game reads your actual body movement and turns it into attacks, blocks, and dodges in a full 3D arena. Move your body, and your character moves with you.',
     details: [
-      'Full 360-degree arena environments themed to each element',
-      'Real-time motion-to-ability translation system',
-      'Dynamic difficulty that adapts to your performance',
-      'Haptic feedback synced with elemental impacts',
+      '360-degree arenas — each element has its own themed environment',
+      'Your real punches and dodges become in-game abilities',
+      'Difficulty adjusts based on how you\'re performing',
+      'Haptic feedback so you feel the hits land',
     ],
     element: 'fire',
   },
@@ -28,64 +28,64 @@ const features: Feature[] = [
     icon: '📡',
     title: 'IoT Smart Bands',
     description:
-      'Our proprietary wrist and thigh bands use advanced sensors to capture your movements with precision. Every punch, squat, and dodge is tracked and converted into elemental power.',
+      'You wear four lightweight bands — two on your wrists and two on your thighs. They have built-in sensors that pick up how fast and hard you\'re moving, and send that data to the game with almost no delay.',
     details: [
-      'Lightweight bands for wrists and thighs (4 total)',
-      'Accelerometer + gyroscope for precise motion capture',
-      'Real-time heart rate and calorie tracking',
-      'Wireless sync with ultra-low latency',
+      '4 bands total — comfortable enough to forget you\'re wearing them',
+      'Accelerometer and gyroscope in each band for accurate tracking',
+      'Tracks your heart rate and calories in real time',
+      'Connects wirelessly with very little lag',
     ],
     element: 'water',
   },
   {
     icon: '⚔️',
-    title: 'Competitive Matchmaking',
+    title: 'Skill-Based Matchmaking',
     description:
-      'Face off against opponents matched to your fitness level and skill rank. Our ELO-based system ensures every battle is a fair, challenging fight.',
+      'You get matched against someone around your level. We use an ELO-style ranking system (similar to chess or League of Legends) so fights are close and competitive, not one-sided.',
     details: [
-      'Skill-based ranking with seasonal ladders',
-      'Quick match and ranked arena modes',
-      'Tournament brackets for competitive play',
-      'Anti-smurf protection for fair matchmaking',
+      'Ranked seasons with ladders you can climb',
+      'Quick match for casual play, ranked mode for serious competition',
+      'Tournament brackets for organized events',
+      'Systems in place to prevent smurfing and unfair matches',
     ],
     element: 'earth',
   },
   {
     icon: '📖',
-    title: 'Fantasy Storyline',
+    title: 'A World Worth Caring About',
     description:
-      'Your fitness journey drives an evolving fantasy narrative. As you grow stronger in real life, your character rises through an epic elemental saga.',
+      'There\'s an ongoing fantasy storyline woven into the game. As you get stronger and play more, you unlock new chapters, character backstories, and plot twists tied to your chosen element.',
     details: [
-      'Branching story paths based on your element choice',
-      'Unlock lore and character backstories through training',
-      'Seasonal story arcs with new characters and conflicts',
-      'Co-op story missions with friends',
+      'Different story paths depending on which element you pick',
+      'Lore and backstories you unlock by training consistently',
+      'New story arcs each season with new characters',
+      'Co-op story missions you can play with friends',
     ],
     element: 'air',
   },
   {
     icon: '📊',
-    title: 'Fitness Analytics',
+    title: 'Fitness Tracking Built In',
     description:
-      'Track your real-world fitness progress alongside your in-game achievements. See how your physical improvements translate to elemental mastery.',
+      'After every match, you get a breakdown of how hard you actually worked — calories burned, heart rate data, how much you moved. Over time, you can see yourself getting stronger both in-game and in real life.',
     details: [
-      'Detailed workout summaries after every match',
-      'Weekly and monthly fitness trend reports',
-      'Calories burned, heart rate zones, and movement intensity',
-      'Personal records and milestone celebrations',
+      'Post-match workout summary after every fight',
+      'Weekly and monthly reports showing your progress',
+      'Calories, heart rate zones, and movement intensity tracked',
+      'Personal bests and milestones so you can see your growth',
     ],
     element: 'fire',
   },
   {
     icon: '🎭',
-    title: 'Element Customization',
+    title: 'Build Your Own Style',
     description:
-      'Choose and evolve your elemental affinity. Mix elements to create unique hybrid fighting styles that match your preferred workout intensity.',
+      'Start with one of four base elements, then customize your ability loadout. Eventually you can mix two elements together to create hybrid fighting styles — like combining fire and earth for explosive ground attacks.',
     details: [
-      'Four base elements with unique ability trees',
-      'Dual-element hybrid combinations',
-      'Cosmetic skins and arena effects for each element',
-      'Progression system that rewards consistency',
+      'Four elements, each with its own ability tree to level up',
+      'Dual-element hybrids for players who want to mix it up',
+      'Cosmetic skins, arena effects, and victory animations',
+      'A progression system that rewards showing up regularly',
     ],
     element: 'water',
   },
@@ -97,10 +97,11 @@ const Features: React.FC = () => {
       <section className="features-hero">
         <div className="features-hero__content">
           <div className="features-hero__badge">TECHNOLOGY & GAMEPLAY</div>
-          <h1>Features & Innovation</h1>
+          <h1>What's Under the Hood</h1>
           <p>
-            Discover the technology and design that makes Elemental Arena the
-            next evolution in VR fitness gaming.
+            Here's how Elemental Arena actually works — the tech, the
+            gameplay systems, and what makes it different from other VR
+            fitness games.
           </p>
         </div>
       </section>
@@ -140,33 +141,34 @@ const Features: React.FC = () => {
 
       <section className="tech-stack">
         <div className="tech-stack__container">
-          <h2 className="section-title">How It All Connects</h2>
+          <h2 className="section-title">How It Works</h2>
           <p className="section-subtitle">
-            From your body to the arena, every component works together seamlessly.
+            The short version of what happens between you throwing a real punch
+            and your opponent getting hit in VR.
           </p>
           <div className="tech-stack__flow">
             <div className="tech-step">
               <div className="tech-step__number">01</div>
               <h3>Move</h3>
-              <p>Your physical movements are captured by the IoT smart bands in real time</p>
+              <p>The bands on your wrists and thighs pick up your movements as you go</p>
             </div>
             <div className="tech-step__arrow">&#10140;</div>
             <div className="tech-step">
               <div className="tech-step__number">02</div>
               <h3>Translate</h3>
-              <p>Our engine converts movement data into elemental abilities and combat actions</p>
+              <p>The game engine figures out what you did and turns it into an attack, dodge, or ability</p>
             </div>
             <div className="tech-step__arrow">&#10140;</div>
             <div className="tech-step">
               <div className="tech-step__number">03</div>
-              <h3>Compete</h3>
-              <p>Battle matched opponents in immersive VR arenas while getting a full workout</p>
+              <h3>Fight</h3>
+              <p>You go head-to-head with a real opponent in VR — and get a serious workout in the process</p>
             </div>
             <div className="tech-step__arrow">&#10140;</div>
             <div className="tech-step">
               <div className="tech-step__number">04</div>
-              <h3>Progress</h3>
-              <p>Track fitness gains and unlock new abilities as your real-world strength grows</p>
+              <h3>Get Better</h3>
+              <p>See your fitness stats improve over time and unlock new abilities as you level up</p>
             </div>
           </div>
         </div>

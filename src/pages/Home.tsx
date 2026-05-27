@@ -33,15 +33,16 @@ const Home: React.FC = () => {
         <div className="hero__particles" ref={particlesRef}></div>
         <div className="hero__overlay"></div>
         <div className="hero__content">
-          <div className="hero__badge">VR FITNESS REIMAGINED</div>
+          <div className="hero__badge">VR FITNESS MEETS COMBAT</div>
           <h1 className="hero__title">
             Enter the <span className="hero__title--fire">Elemental</span>{' '}
             <span className="hero__title--water">Arena</span>
           </h1>
           <p className="hero__subtitle">
-            A VR combat experience that transforms your workout into an epic
-            elemental battle. Wield the power of fire, water, earth, and air
-            as you compete against rivals matched to your skill level.
+            A VR game where you fight using fire, water, earth, and air — and
+            get a real workout while doing it. IoT bands on your wrists and
+            thighs track your movement and turn it into in-game power. You
+            won't even realize you're exercising.
           </p>
           <div className="hero__cta-group">
             <Link to="/features" className="btn btn--primary">
@@ -63,8 +64,9 @@ const Home: React.FC = () => {
           <FadeInSection>
             <h2 className="section-title">Why Elemental Arena?</h2>
             <p className="section-subtitle">
-              We believe fitness should be an adventure, not a chore. Elemental Arena
-              bridges the gap between intense physical training and immersive gaming.
+              Most workout games feel like workouts with a coat of paint. We built
+              something different — a game you'd play even if it didn't burn calories.
+              The fact that it does is just a bonus.
             </p>
           </FadeInSection>
           <div className="value-props__grid">
@@ -73,38 +75,42 @@ const Home: React.FC = () => {
                 <div className="value-card__icon">&#128293;</div>
                 <h3>Feels Like a Game</h3>
                 <p>
-                  Forget counting reps. Every punch, dodge, and spell cast is a
-                  strategic move in an elemental battle that keeps you coming back.
+                  No rep counting. No timer staring. You're throwing fireballs
+                  and dodging attacks — and before you know it, you've done
+                  a 30-minute cardio session without thinking about it.
                 </p>
               </div>
             </FadeInSection>
             <FadeInSection delay={100}>
               <div className="value-card value-card--water">
                 <div className="value-card__icon">&#9876;</div>
-                <h3>Competitive Matchmaking</h3>
+                <h3>Play Against Real People</h3>
                 <p>
-                  Our skill-based ranking system pairs you with opponents at your
-                  level, ensuring every match is challenging and rewarding.
+                  You get matched against someone close to your skill level, so
+                  fights actually feel fair. Win and you climb the ranks. Lose
+                  and you learn something.
                 </p>
               </div>
             </FadeInSection>
             <FadeInSection delay={200}>
               <div className="value-card value-card--earth">
                 <div className="value-card__icon">&#129520;</div>
-                <h3>IoT Motion Tracking</h3>
+                <h3>Your Body is the Controller</h3>
                 <p>
-                  Smart bands on your wrists and thighs capture every movement,
-                  translating real physical effort into in-game elemental power.
+                  Four lightweight bands — two on your wrists, two on your thighs —
+                  pick up how you move. Throw a real punch, and your character
+                  throws one too. Squat to charge up a ground slam.
                 </p>
               </div>
             </FadeInSection>
             <FadeInSection delay={300}>
               <div className="value-card value-card--air">
                 <div className="value-card__icon">&#127752;</div>
-                <h3>Fantasy Storyline</h3>
+                <h3>An Actual Story</h3>
                 <p>
-                  Immerse yourself in an evolving elemental drama where your
-                  fitness journey drives the narrative forward.
+                  There's a whole fantasy world behind the fights — elemental
+                  factions, rivalries, lore. The more you play and train, the
+                  more of the story you unlock.
                 </p>
               </div>
             </FadeInSection>
@@ -115,10 +121,10 @@ const Home: React.FC = () => {
       <section className="elements-showcase">
         <div className="elements-showcase__container">
           <FadeInSection>
-            <h2 className="section-title">Master the Elements</h2>
+            <h2 className="section-title">Pick Your Element</h2>
             <p className="section-subtitle">
-              Choose your elemental affinity and master unique combat styles that
-              translate real movement into devastating abilities.
+              Each element has its own fighting style and its own type of workout.
+              Pick the one that fits how you like to move.
             </p>
           </FadeInSection>
           <div className="elements-grid">
@@ -128,7 +134,7 @@ const Home: React.FC = () => {
                 <div className="element-tile__content">
                   <span className="element-tile__symbol">&#128293;</span>
                   <h3>Fire</h3>
-                  <p>Aggressive strikes and explosive combos. High-intensity cardio through rapid attack sequences.</p>
+                  <p>Fast punches, big combos, constant pressure. If you like going all-out, this is your element. Expect to sweat.</p>
                 </div>
               </div>
             </FadeInSection>
@@ -138,7 +144,7 @@ const Home: React.FC = () => {
                 <div className="element-tile__content">
                   <span className="element-tile__symbol">&#128167;</span>
                   <h3>Water</h3>
-                  <p>Fluid movements and defensive counters. Builds flexibility and core strength through flowing motions.</p>
+                  <p>Smooth, flowing moves with well-timed counters. Great for building core strength and flexibility without the brute force.</p>
                 </div>
               </div>
             </FadeInSection>
@@ -148,7 +154,7 @@ const Home: React.FC = () => {
                 <div className="element-tile__content">
                   <span className="element-tile__symbol">&#127793;</span>
                   <h3>Earth</h3>
-                  <p>Powerful stances and crushing blows. Develops lower body strength through grounded power moves.</p>
+                  <p>Heavy hits, solid stances, and ground-shaking slams. Lots of squats and lunges built into the combat — your legs will feel it.</p>
                 </div>
               </div>
             </FadeInSection>
@@ -158,7 +164,7 @@ const Home: React.FC = () => {
                 <div className="element-tile__content">
                   <span className="element-tile__symbol">&#128168;</span>
                   <h3>Air</h3>
-                  <p>Swift dodges and ranged attacks. Enhances agility and reflexes through evasive maneuvers.</p>
+                  <p>Quick on your feet, hard to pin down. Lots of dodging and ranged attacks — think reflex training disguised as wind magic.</p>
                 </div>
               </div>
             </FadeInSection>
@@ -170,7 +176,7 @@ const Home: React.FC = () => {
         <FadeInSection>
           <div className="cta-section__container">
             <h2>Ready to Enter the Arena?</h2>
-            <p>Transform your workout. Unleash your element. Conquer your rivals.</p>
+            <p>Stop dreading your workouts. Start looking forward to them.</p>
             <Link to="/features" className="btn btn--primary btn--large">
               Explore All Features
             </Link>

@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <h3 className="footer__logo">
             <span className="footer__logo-icon">&#9670;</span> Elemental Arena
           </h3>
-          <p className="footer__tagline">Where Fitness Meets Fantasy</p>
+          <p className="footer__tagline">Work out. Fight. Level up.</p>
         </div>
         <div className="footer__nav">
           <h4>Explore</h4>

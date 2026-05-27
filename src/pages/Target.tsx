@@ -14,63 +14,63 @@ interface Persona {
 
 const personas: Persona[] = [
   {
-    name: 'The Gamer Who Wants to Get Fit',
+    name: 'Gamers Who Skip the Gym',
     age: '18-30',
     avatar: '🎮',
     description:
-      'Loves competitive gaming but struggles to find motivation for traditional workouts. Spends hours in VR already and wants that time to count toward fitness goals.',
+      'They love competitive games and already spend time in VR, but they can\'t get themselves to go to the gym. Working out feels boring compared to gaming.',
     painPoints: [
-      'Gyms feel repetitive and boring',
-      'Hard to stay motivated without competition',
-      'Wants results without sacrificing gaming time',
+      'The gym is repetitive and they lose interest fast',
+      'Without competition, there\'s no reason to push harder',
+      'They don\'t want to give up gaming time for exercise',
     ],
     whyElementalArena:
-      'Elemental Arena turns their gaming sessions into full-body workouts. The competitive matchmaking keeps them engaged, and the ranking system provides the same dopamine loop as their favorite esports titles.',
+      'Their gaming time becomes their workout time. The ranked matchmaking gives them the same competitive rush they get from esports, except now they\'re burning 400+ calories per session doing it.',
     element: 'fire',
   },
   {
-    name: 'The Fitness Enthusiast Seeking Variety',
+    name: 'Gym Regulars Who Are Bored',
     age: '22-40',
     avatar: '💪',
     description:
-      'Already active and health-conscious but bored with their current routine. Looking for something that challenges both their body and mind in new ways.',
+      'They already work out, but they\'re stuck in a rut. Same exercises, same playlist, same results. They want something that actually makes them think, not just sweat.',
     painPoints: [
-      'Workout plateau from repetitive routines',
-      'Craves mental engagement alongside physical effort',
-      'Wants data-driven progress tracking',
+      'Hit a plateau doing the same routine over and over',
+      'Want something mentally engaging, not just physical',
+      'Like tracking their stats and seeing real numbers',
     ],
     whyElementalArena:
-      'The IoT bands provide precise fitness analytics they crave, while the ever-evolving elemental combat system ensures no two sessions feel the same. New elements and abilities keep the challenge fresh.',
+      'The IoT bands give them detailed workout data after every match, and because the combat system keeps changing with new abilities and opponents, no two sessions play out the same way.',
     element: 'water',
   },
   {
-    name: 'The VR Early Adopter',
+    name: 'People Who Already Own a VR Headset',
     age: '20-35',
     avatar: '🥽',
     description:
-      'Already owns a VR headset and is looking for compelling content that goes beyond novelty. Wants experiences that provide lasting value and social connection.',
+      'They bought a VR headset, played a few games, and now it sits on a shelf. They want a reason to pick it back up — something with staying power and a real community.',
     painPoints: [
-      'Most VR games lack replay value',
-      'Wants social and competitive VR experiences',
-      'Looking for VR apps that justify the hardware investment',
+      'Most VR games get old after a week',
+      'Not enough social or competitive VR content out there',
+      'Hard to justify the headset if they barely use it',
     ],
     whyElementalArena:
-      'With deep competitive systems, a rich fantasy narrative, and IoT integration, Elemental Arena gives their VR headset a purpose they will return to daily. The skill-based matchmaking creates a thriving competitive community.',
+      'Between the competitive ladder, the ongoing story, and the IoT fitness tracking, there\'s a reason to play every day. The matchmaking also means there\'s always someone online to fight.',
     element: 'earth',
   },
   {
-    name: 'The Casual Player Looking for Fun Exercise',
+    name: 'Casual Players Who Hate Exercise',
     age: '16-45',
     avatar: '✨',
     description:
-      'Not a hardcore gamer or gym-goer, but interested in staying active. Drawn to the fantasy theme and wants something that makes exercise feel effortless and fun.',
+      'They\'re not gamers and they\'re not gym people. They just want to be more active without it feeling like punishment. The fantasy theme caught their eye.',
     painPoints: [
-      'Traditional exercise feels like a chore',
-      'Intimidated by competitive gaming communities',
-      'Wants a welcoming entry point',
+      'Working out feels like a chore every single time',
+      'Online gaming communities can feel hostile or intimidating',
+      'They need a low-pressure way to start',
     ],
     whyElementalArena:
-      'The fantasy storyline and element customization create a welcoming world. Skill-based matchmaking means they will always face opponents at their level, never feeling overwhelmed.',
+      'The matchmaking puts them against other beginners, so they\'re never getting destroyed by experienced players. The story and element customization give them something fun to work toward beyond just fitness numbers.',
     element: 'air',
   },
 ];
@@ -80,12 +80,11 @@ const Target: React.FC = () => {
     <div className="target-page">
       <section className="target-hero">
         <div className="target-hero__content">
-          <div className="target-hero__badge">WHO WE SERVE</div>
+          <div className="target-hero__badge">WHO THIS IS FOR</div>
           <h1>Our Target Market</h1>
           <p>
-            Elemental Arena is built for anyone who believes fitness should be
-            exciting, competitive, and immersive. Here are the people we are
-            designing for.
+            We're not trying to be for everyone. These are the specific
+            types of people we had in mind when we designed Elemental Arena.
           </p>
         </div>
       </section>
@@ -111,10 +110,10 @@ const Target: React.FC = () => {
 
       <section className="personas">
         <div className="personas__container">
-          <h2 className="section-title">Meet Our Players</h2>
+          <h2 className="section-title">Who We're Building For</h2>
           <p className="section-subtitle">
-            Each persona represents a core segment of our audience, united by a
-            shared desire to make fitness feel like play.
+            Four types of people who would actually use this — and the
+            specific problems we're solving for each one.
           </p>
           <div className="personas__grid">
             {personas.map((persona, index) => (
@@ -149,25 +148,26 @@ const Target: React.FC = () => {
 
       <section className="problem-solution">
         <div className="problem-solution__container">
-          <h2 className="section-title">The Problem We Solve</h2>
+          <h2 className="section-title">The Problem and Our Fix</h2>
           <div className="problem-solution__grid">
             <div className="problem-box">
               <h3>The Problem</h3>
               <p>
-                Traditional workouts are repetitive and hard to stick with.
-                VR fitness games exist, but they lack competitive depth,
-                meaningful progression, and the kind of immersive
-                storytelling that keeps players engaged long-term.
+                Most people quit their workouts because they're boring.
+                VR fitness games tried to fix this, but they still feel
+                like exercise with a gimmick — no real competition, no
+                reason to keep coming back after the first week, and
+                nothing to care about beyond the next rep.
               </p>
             </div>
             <div className="solution-box">
-              <h3>Our Solution</h3>
+              <h3>What We Do Differently</h3>
               <p>
-                Elemental Arena combines precise IoT body tracking with
-                skill-based competitive matchmaking and a rich fantasy
-                narrative. Players don't just exercise — they train,
-                compete, and progress through an elemental world where
-                their real fitness gains unlock new abilities.
+                We made a game first and a workout second. You wear IoT
+                bands that track how your body moves, fight real people
+                at your skill level, and work through an actual fantasy
+                story. The exercise happens because the gameplay demands
+                it — not because we put a calorie counter on screen.
               </p>
             </div>
           </div>

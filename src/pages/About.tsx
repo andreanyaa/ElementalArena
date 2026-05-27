@@ -10,8 +10,8 @@ const About: React.FC = () => {
           <div className="about-hero__badge">OUR STORY</div>
           <h1>About Elemental Arena</h1>
           <p>
-            Born from the belief that the best workout is one you actually
-            look forward to.
+            We got tired of workouts that feel like work. So we made one
+            that doesn't.
           </p>
         </div>
       </section>
@@ -19,25 +19,23 @@ const About: React.FC = () => {
       <section className="about-story">
         <div className="about-story__container">
           <div className="about-story__content">
-            <h2>The Vision</h2>
+            <h2>How This Started</h2>
             <p>
-              We started with a simple question: what if your workout was
-              the best part of your day? Not because you forced yourself
-              through it, but because you genuinely couldn't wait to step
-              into the arena.
+              Honestly? We were tired of forcing ourselves to go to the gym.
+              We already spent hours in VR, so we asked ourselves — what if
+              that time actually counted as a workout?
             </p>
             <p>
-              Elemental Arena was born from the fusion of VR gaming, IoT
-              wearable technology, and competitive esports design. We
-              believe that when you stop thinking about exercise and start
-              thinking about strategy, mastery, and rivalry, the fitness
-              follows naturally.
+              That's where Elemental Arena came from. We took the parts of
+              gaming that keep people hooked — competition, rankings, story
+              progression — and built a VR experience around them that
+              happens to be a serious workout. You're not thinking about
+              exercise. You're thinking about winning.
             </p>
             <p>
-              Our team combines expertise in game design, wearable
-              technology, fitness science, and fantasy storytelling to
-              create an experience that is as physically effective as it is
-              mentally engaging.
+              We're a team that knows game design, wearable tech, and
+              fitness. We put all of that together because we genuinely
+              think this is how people should be working out.
             </p>
           </div>
           <div className="about-story__visual">
@@ -64,40 +62,42 @@ const About: React.FC = () => {
 
       <section className="about-values">
         <div className="about-values__container">
-          <h2 className="section-title">Our Core Values</h2>
+          <h2 className="section-title">What We Care About</h2>
           <div className="about-values__grid">
             <div className="about-value">
               <div className="about-value__icon">&#9876;</div>
-              <h3>Fitness Through Play</h3>
+              <h3>Fun First, Fitness Second</h3>
               <p>
-                We design every mechanic to maximize physical engagement
-                while keeping the experience fun. If it feels like a chore,
-                we've failed.
+                If it feels like a chore, we messed up. Every game mechanic
+                is built to be fun on its own — the workout is a side
+                effect, not the sales pitch.
               </p>
             </div>
             <div className="about-value">
               <div className="about-value__icon">&#9878;</div>
-              <h3>Fair Competition</h3>
+              <h3>Fair Fights</h3>
               <p>
-                Our matchmaking prioritizes balanced, exciting matches.
-                Every player deserves an opponent that pushes them to grow.
+                Nobody wants to get stomped by someone way above their
+                level. We put a lot of work into matching people fairly
+                so every fight actually feels winnable.
               </p>
             </div>
             <div className="about-value">
               <div className="about-value__icon">&#10024;</div>
-              <h3>Immersive Worlds</h3>
+              <h3>The World Matters</h3>
               <p>
-                From elemental lore to arena design, we craft every detail
-                to pull players deeper into the experience.
+                We didn't just throw a fantasy skin on a fitness app. The
+                lore, the arena designs, the elemental factions — we
+                actually thought through all of it.
               </p>
             </div>
             <div className="about-value">
               <div className="about-value__icon">&#128200;</div>
-              <h3>Real Results</h3>
+              <h3>It Actually Works</h3>
               <p>
-                Behind the fantasy, real science drives our fitness design.
-                IoT tracking ensures every session counts toward meaningful
-                health improvements.
+                Behind the dragons and fireballs, the fitness side is
+                legit. The IoT bands track real data, and the movements
+                are designed to give you an actual workout.
               </p>
             </div>
           </div>
@@ -113,42 +113,43 @@ const About: React.FC = () => {
               <div className="timeline__content">
                 <h3>Concept & Research</h3>
                 <p>
-                  Identified the gap between VR fitness and competitive
-                  gaming. Began prototyping IoT band integration with VR
-                  combat mechanics.
+                  Noticed that VR fitness games and competitive VR games
+                  existed separately but nobody was combining them. Started
+                  experimenting with strapping sensors to our arms and
+                  seeing what was possible.
                 </p>
               </div>
             </div>
             <div className="timeline__item">
               <div className="timeline__marker timeline__marker--water"></div>
               <div className="timeline__content">
-                <h3>Prototype Development</h3>
+                <h3>First Prototype</h3>
                 <p>
-                  Built the first playable prototype with basic elemental
-                  abilities and motion-to-action translation using
-                  wrist-mounted sensors.
+                  Got a rough version working where wrist sensors could
+                  trigger basic fire and water attacks. It was janky, but
+                  it was fun — and that told us we were onto something.
                 </p>
               </div>
             </div>
             <div className="timeline__item">
               <div className="timeline__marker timeline__marker--earth"></div>
               <div className="timeline__content">
-                <h3>IoT Integration</h3>
+                <h3>Full Body Tracking</h3>
                 <p>
-                  Expanded to full 4-band system (wrists + thighs).
-                  Achieved sub-20ms latency for motion capture to in-game
-                  response.
+                  Added thigh bands to the setup, bringing it to 4 bands
+                  total. Got the delay between moving and seeing it
+                  on-screen down to under 20 milliseconds.
                 </p>
               </div>
             </div>
             <div className="timeline__item">
               <div className="timeline__marker timeline__marker--air"></div>
               <div className="timeline__content">
-                <h3>Launch & Beyond</h3>
+                <h3>Getting Ready to Launch</h3>
                 <p>
-                  Preparing for public launch with competitive matchmaking,
-                  four elemental paths, and a living fantasy storyline that
-                  evolves with the community.
+                  Building out the competitive matchmaking, finishing all
+                  four elemental paths, and writing the first season of
+                  the story. Almost there.
                 </p>
               </div>
             </div>
@@ -160,8 +161,8 @@ const About: React.FC = () => {
         <div className="about-cta__container">
           <h2>Join the Arena</h2>
           <p>
-            The elements await. Whether you are here to compete, to train,
-            or to explore a new world — there is a place for you.
+            Whether you want to compete, get in shape, or just mess around
+            in a fantasy world — there's a reason to play.
           </p>
           <div className="about-cta__buttons">
             <Link to="/features" className="btn btn--primary">
