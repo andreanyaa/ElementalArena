@@ -52,7 +52,7 @@ const Investors: React.FC = () => {
               <h3>Our Presentation</h3>
               <div className="investor-media__pptx-wrapper">
                 <iframe
-                  src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Felemental-arena-phi.vercel.app%2Fmedia%2Felemental-arena-presentation.pptx"
+                  src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Felemental-arena-website.vercel.app%2Fmedia%2Felemental-arena-presentation.pptx"
                   title="Elemental Arena Presentation"
                   className="investor-media__pptx"
                   frameBorder="0"
