@@ -17,7 +17,7 @@ const features: Feature[] = [
     description:
       'You\'re not just waving your arms around. The game reads your actual body movement and turns it into attacks, blocks, and dodges in a full 3D arena. Move your body, and your character moves with you.',
     details: [
-      '360-degree arenas — each element has its own themed environment',
+      '360-degree arenas, each element has its own themed environment',
       'Your real punches and dodges become in-game abilities',
       'Difficulty adjusts based on how you\'re performing',
       'Haptic feedback so you feel the hits land',
@@ -28,9 +28,9 @@ const features: Feature[] = [
     icon: '📡',
     title: 'IoT Smart Bands',
     description:
-      'You wear four lightweight bands — two on your wrists and two on your thighs. They have built-in sensors that pick up how fast and hard you\'re moving, and send that data to the game with almost no delay.',
+      'You wear four lightweight bands: two on your wrists and two on your thighs. They have built-in sensors that pick up how fast and hard you\'re moving, and send that data to the game with almost no delay.',
     details: [
-      '4 bands total — comfortable enough to forget you\'re wearing them',
+      '4 bands total, comfortable enough to forget you\'re wearing them',
       'Accelerometer and gyroscope in each band for accurate tracking',
       'Tracks your heart rate and calories in real time',
       'Connects wirelessly with very little lag',
@@ -67,7 +67,7 @@ const features: Feature[] = [
     icon: '📊',
     title: 'Fitness Tracking Built In',
     description:
-      'After every match, you get a breakdown of how hard you actually worked — calories burned, heart rate data, how much you moved. Over time, you can see yourself getting stronger both in-game and in real life.',
+      'After every match, you get a breakdown of how hard you actually worked: calories burned, heart rate data, how much you moved. Over time, you can see yourself getting stronger both in-game and in real life.',
     details: [
       'Post-match workout summary after every fight',
       'Weekly and monthly reports showing your progress',
@@ -80,7 +80,7 @@ const features: Feature[] = [
     icon: '🎭',
     title: 'Build Your Own Style',
     description:
-      'Start with one of four base elements, then customize your ability loadout. Eventually you can mix two elements together to create hybrid fighting styles — like combining fire and earth for explosive ground attacks.',
+      'Start with one of four base elements, then customize your ability loadout. Eventually you can mix two elements together to create hybrid fighting styles, like combining fire and earth for explosive ground attacks.',
     details: [
       'Four elements, each with its own ability tree to level up',
       'Dual-element hybrids for players who want to mix it up',
@@ -99,7 +99,7 @@ const Features: React.FC = () => {
           <div className="features-hero__badge">TECHNOLOGY & GAMEPLAY</div>
           <h1>What's Under the Hood</h1>
           <p>
-            Here's how Elemental Arena actually works — the tech, the
+            Here's how Elemental Arena actually works: the tech, the
             gameplay systems, and what makes it different from other VR
             fitness games.
           </p>
@@ -162,7 +162,7 @@ const Features: React.FC = () => {
             <div className="tech-step">
               <div className="tech-step__number">03</div>
               <h3>Fight</h3>
-              <p>You go head-to-head with a real opponent in VR — and get a serious workout in the process</p>
+              <p>You go head-to-head with a real opponent in VR, and get a serious workout in the process</p>
             </div>
             <div className="tech-step__arrow">&#10140;</div>
             <div className="tech-step">

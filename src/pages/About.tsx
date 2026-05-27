@@ -22,13 +22,13 @@ const About: React.FC = () => {
             <h2>How This Started</h2>
             <p>
               Honestly? We were tired of forcing ourselves to go to the gym.
-              We already spent hours in VR, so we asked ourselves — what if
+              We already spent hours in VR, so we asked ourselves: what if
               that time actually counted as a workout?
             </p>
             <p>
               That's where Elemental Arena came from. We took the parts of
-              gaming that keep people hooked — competition, rankings, story
-              progression — and built a VR experience around them that
+              gaming that keep people hooked (competition, rankings, story
+              progression) and built a VR experience around them that
               happens to be a serious workout. You're not thinking about
               exercise. You're thinking about winning.
             </p>
@@ -69,7 +69,7 @@ const About: React.FC = () => {
               <h3>Fun First, Fitness Second</h3>
               <p>
                 If it feels like a chore, we messed up. Every game mechanic
-                is built to be fun on its own — the workout is a side
+                is built to be fun on its own. The workout is a side
                 effect, not the sales pitch.
               </p>
             </div>
@@ -87,7 +87,7 @@ const About: React.FC = () => {
               <h3>The World Matters</h3>
               <p>
                 We didn't just throw a fantasy skin on a fitness app. The
-                lore, the arena designs, the elemental factions — we
+                lore, the arena designs, the elemental factions. We
                 actually thought through all of it.
               </p>
             </div>
@@ -127,7 +127,7 @@ const About: React.FC = () => {
                 <p>
                   Got a rough version working where wrist sensors could
                   trigger basic fire and water attacks. It was janky, but
-                  it was fun — and that told us we were onto something.
+                  it was fun, and that told us we were onto something.
                 </p>
               </div>
             </div>
@@ -162,7 +162,7 @@ const About: React.FC = () => {
           <h2>Join the Arena</h2>
           <p>
             Whether you want to compete, get in shape, or just mess around
-            in a fantasy world — there's a reason to play.
+            in a fantasy world, there's a reason to play.
           </p>
           <div className="about-cta__buttons">
             <Link to="/features" className="btn btn--primary">

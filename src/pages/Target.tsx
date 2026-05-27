@@ -48,7 +48,7 @@ const personas: Persona[] = [
     age: '20-35',
     avatar: '🥽',
     description:
-      'They bought a VR headset, played a few games, and now it sits on a shelf. They want a reason to pick it back up — something with staying power and a real community.',
+      'They bought a VR headset, played a few games, and now it sits on a shelf. They want a reason to pick it back up, something with staying power and a real community.',
     painPoints: [
       'Most VR games get old after a week',
       'Not enough social or competitive VR content out there',
@@ -112,7 +112,7 @@ const Target: React.FC = () => {
         <div className="personas__container">
           <h2 className="section-title">Who We're Building For</h2>
           <p className="section-subtitle">
-            Four types of people who would actually use this — and the
+            Four types of people who would actually use this, and the
             specific problems we're solving for each one.
           </p>
           <div className="personas__grid">
@@ -155,7 +155,7 @@ const Target: React.FC = () => {
               <p>
                 Most people quit their workouts because they're boring.
                 VR fitness games tried to fix this, but they still feel
-                like exercise with a gimmick — no real competition, no
+                like exercise with a gimmick: no real competition, no
                 reason to keep coming back after the first week, and
                 nothing to care about beyond the next rep.
               </p>
@@ -167,7 +167,7 @@ const Target: React.FC = () => {
                 bands that track how your body moves, fight real people
                 at your skill level, and work through an actual fantasy
                 story. The exercise happens because the gameplay demands
-                it — not because we put a calorie counter on screen.
+                it, not because we put a calorie counter on screen.
               </p>
             </div>
           </div>

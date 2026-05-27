@@ -24,7 +24,7 @@ const Investors: React.FC = () => {
             <h2 className="section-title">The Numbers</h2>
             <p className="section-subtitle">
               These are the markets we're tapping into. Each one is big on
-              its own — and nobody's seriously combined them yet.
+              its own, and nobody's seriously combined them yet.
             </p>
           </FadeInSection>
           <div className="market-opportunity__grid">
@@ -32,7 +32,7 @@ const Investors: React.FC = () => {
               <div className="opp-card">
                 <div className="opp-card__stat">$14.8B</div>
                 <h3>VR Gaming Market</h3>
-                <p>Where VR gaming is headed by 2027 — growing roughly 30% year over year</p>
+                <p>Where VR gaming is headed by 2027, growing roughly 30% year over year</p>
               </div>
             </FadeInSection>
             <FadeInSection delay={100}>
@@ -46,7 +46,7 @@ const Investors: React.FC = () => {
               <div className="opp-card">
                 <div className="opp-card__stat">$5.7B</div>
                 <h3>Wearable Tech Market</h3>
-                <p>Fitness wearables keep growing — people clearly want tech that tracks their body</p>
+                <p>Fitness wearables keep growing. People clearly want tech that tracks their body</p>
               </div>
             </FadeInSection>
           </div>
@@ -90,7 +90,7 @@ const Investors: React.FC = () => {
                   Ranked competition gives players a reason to log in. New
                   seasons give them something to look forward to. And
                   because the workout data tracks real progress, they can
-                  see themselves getting stronger — which is hard to walk
+                  see themselves getting stronger, which is hard to walk
                   away from.
                 </p>
               </div>
@@ -100,7 +100,7 @@ const Investors: React.FC = () => {
                 <div className="why-card__number">04</div>
                 <h3>Easy to Keep Growing</h3>
                 <p>
-                  The element system is modular — we can keep adding new
+                  The element system is modular, so we can keep adding new
                   elements, abilities, and story chapters without
                   rebuilding anything. It's designed to expand over time.
                 </p>
@@ -115,7 +115,7 @@ const Investors: React.FC = () => {
           <FadeInSection>
             <h2 className="section-title">How We Make Money</h2>
             <p className="section-subtitle">
-              Four revenue channels that work together — hardware, subscriptions,
+              Four revenue channels that work together: hardware, subscriptions,
               in-game purchases, and competitive events.
             </p>
           </FadeInSection>
@@ -150,7 +150,7 @@ const Investors: React.FC = () => {
                 <h3>In-Game Store</h3>
                 <div className="biz-card__detail">Cosmetic Marketplace</div>
                 <p>
-                  Skins, arena effects, victory animations — all cosmetic
+                  Skins, arena effects, victory animations, all cosmetic
                   only. We don't sell power. You can't buy your way to a
                   higher rank.
                 </p>
@@ -182,7 +182,7 @@ const Investors: React.FC = () => {
               <div className="traction__phase traction__phase--complete">
                 <div className="traction__phase-header">
                   <span className="traction__phase-tag traction__phase-tag--complete">COMPLETED</span>
-                  <h3>Phase 1 — Foundation</h3>
+                  <h3>Phase 1:Foundation</h3>
                 </div>
                 <ul>
                   <li>Core VR combat engine prototype</li>
@@ -196,7 +196,7 @@ const Investors: React.FC = () => {
               <div className="traction__phase traction__phase--current">
                 <div className="traction__phase-header">
                   <span className="traction__phase-tag traction__phase-tag--current">IN PROGRESS</span>
-                  <h3>Phase 2 — Competitive Core</h3>
+                  <h3>Phase 2:Competitive Core</h3>
                 </div>
                 <ul>
                   <li>ELO-based matchmaking system</li>
@@ -210,7 +210,7 @@ const Investors: React.FC = () => {
               <div className="traction__phase">
                 <div className="traction__phase-header">
                   <span className="traction__phase-tag">UPCOMING</span>
-                  <h3>Phase 3 — Launch</h3>
+                  <h3>Phase 3:Launch</h3>
                 </div>
                 <ul>
                   <li>Public launch on major VR platforms</li>
@@ -224,7 +224,7 @@ const Investors: React.FC = () => {
               <div className="traction__phase">
                 <div className="traction__phase-header">
                   <span className="traction__phase-tag">FUTURE</span>
-                  <h3>Phase 4 — Scale</h3>
+                  <h3>Phase 4:Scale</h3>
                 </div>
                 <ul>
                   <li>Esports tournament circuit launch</li>
