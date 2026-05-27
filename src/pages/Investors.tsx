@@ -45,6 +45,45 @@ const Investors: React.FC = () => {
         </div>
       </section>
 
+      <section className="investor-media">
+        <div className="investor-media__container">
+          <FadeInSection>
+            <div className="investor-media__block">
+              <h3>Our Presentation</h3>
+              <div className="investor-media__pptx-wrapper">
+                <iframe
+                  src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Felemental-arena-phi.vercel.app%2Fmedia%2Felemental-arena-presentation.pptx"
+                  title="Elemental Arena Presentation"
+                  className="investor-media__pptx"
+                  frameBorder="0"
+                  allowFullScreen
+                />
+              </div>
+              <a
+                href="/media/elemental-arena-presentation.pptx"
+                download
+                className="investor-media__download"
+              >
+                Download Presentation
+              </a>
+            </div>
+          </FadeInSection>
+          <FadeInSection delay={100}>
+            <div className="investor-media__block">
+              <h3>Product Demo</h3>
+              <video
+                className="investor-media__video"
+                controls
+                preload="metadata"
+              >
+                <source src="/media/elemental-arena-demo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </FadeInSection>
+        </div>
+      </section>
+
       <section className="market-opportunity">
         <div className="market-opportunity__container">
           <FadeInSection>
