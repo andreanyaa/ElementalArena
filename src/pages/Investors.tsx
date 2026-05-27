@@ -18,6 +18,33 @@ const Investors: React.FC = () => {
         </div>
       </section>
 
+      <section className="research-snapshot">
+        <div className="research-snapshot__container">
+          <FadeInSection>
+            <h2 className="section-title">Our Executive Summary</h2>
+          </FadeInSection>
+          <FadeInSection delay={100}>
+            <div className="research-snapshot__paper">
+              <p>
+                Young adults around the world struggle to fit fitness into their schedules for many reasons, including gym anxiety, lack of motivation, and repetitive routines. Research indicates that 40% of people feel intimidated while working out in gyms, a figure that rises with younger generations. Our own survey stated that 34% of people claimed they do not have time to go to the gym. Which is where our product Elemental Arena comes in.
+              </p>
+              <p>
+                Elemental Arena is an immersive fitness platform that combines Artificial Intelligence, virtual reality, IoT wearable sensors, and digital twin technology to make working out more fun and engaging, all in the comfort of the home. The game will track movements to use elements to attack other characters who are also working out. The AI will personalize workouts, track the individual's vitals, and adjust workouts and/or their difficulty. The IoT sensors will track each player's vitals and send the data for logging and monitoring by the AI. This helps the AI gauge each player's current state and how they can benefit from the workout. Finally, VR technology will allow players to feel more immersed and more mobile when working out.
+              </p>
+              <p>
+                Elemental Arena's target market is gamers aged 16-34. This market is massive, especially the online market, as the global fitness app market was valued at $16 billion in 2024, and is only growing. As mentioned before, there is a subtle increase in interest in digital fitness and wearable fitness devices. 58% of survey respondents said they would be interested in our game and would try it. These trends indicate that our product will be successful and in demand upon release.
+              </p>
+              <p>
+                The way Elemental Arena differs from other sites is how we incorporate diverse ideas into one. We are not only dealing with the fitness industry but also with gaming. The gaming industry was recorded as worth 184 billion in revenue alone in 2024, while fitness apps were worth 16.6 billion. Not only are we pulling from both markets to appeal to customers, but there is also a growing market presence for the fitness gaming app.
+              </p>
+              <p>
+                Elemental Arena will be a freemium business model. Meaning the game itself will be free; the cost will come from IoT sensors and subscriptions/cosmetics that are not necessary to play but can be purchased if players choose. We also plan to partner with fitness brands and gyms to host sections where Elemental Arena can be played for people who cannot buy it on their own.
+              </p>
+            </div>
+          </FadeInSection>
+        </div>
+      </section>
+
       <section className="market-opportunity">
         <div className="market-opportunity__container">
           <FadeInSection>

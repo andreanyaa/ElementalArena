@@ -34,6 +34,41 @@
   font-size: 1.1rem;
 }
 
+/* ============ RESEARCH SNAPSHOT ============ */
+.research-snapshot {
+  padding: 6rem 2rem;
+  background: var(--color-bg-medium);
+}
+
+.research-snapshot__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.research-snapshot__paper {
+  background: var(--color-bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-left: 3px solid var(--color-gold);
+  padding: 3rem 3.5rem;
+}
+
+.research-snapshot__paper p {
+  color: var(--color-text-dim);
+  font-size: 1.02rem;
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
+}
+
+.research-snapshot__paper p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .research-snapshot__paper {
+    padding: 2rem 1.5rem;
+  }
+}
+
 /* ============ MARKET OPPORTUNITY ============ */
 .market-opportunity {
   padding: 6rem 2rem;
